@@ -1,48 +1,43 @@
-.bd {
+.bg {
   margin: 0;
-  background-color: white
+  background-color: white;
 }
 
-ul {
+.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
-  }
+  background-color: rgba(0, 17, 45);
+}
   
 .menu {
   float: right;
 }
   
 .menu a {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 22px;
   display: block;
   color: white;
-  text-align: center;
-  padding: 30px 30px;
+  text-align: right;
+  padding: 30px 20px;
   text-decoration: none;
 }
   
 .menu a:hover {
-  scale: 120%;
+  scale: 110%;
   color: white;
 }
 
-.logo {
-  float: left;
-}
-
 .logo a {
-  display: block;
-  padding: 30px;
+  display: grid;
+  float: left;
+  padding: 20px;
 }
 
 #logo {
   position: absolute;
-  left: 5%;
-  top: 3%;
   max-width: 8%;
   max-height: 8%;
 }
