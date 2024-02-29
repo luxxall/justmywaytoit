@@ -263,6 +263,17 @@
   transform: translate(-50%, -50%);
   position: absolute;
   width: 80%;
+  font-size: 13px;
+}
+
+.lastLink {
+  text-decoration: none;
+  color: black;
+}
+
+.lastLink:hover {
+  background-color: rgb(247, 244, 244);
+  color: black;
 }
 
 
