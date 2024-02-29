@@ -1,6 +1,6 @@
 .bg {
   margin: 0;
-  background-color: rgba(0, 17, 45);
+  background-color: white;
 }
 
 .topnav {
@@ -43,7 +43,7 @@
 }
 
 .container {
-  background-color: yellow;
+  background-color: rgb(247, 244, 244);
   height: 550px;
   min-width: 100%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -65,7 +65,7 @@
   float: left;
   padding-left: 120px;
   width: 50%;
-  margin-top: -50px;
+  margin-top: 50px;
 }
 
 .text {
@@ -74,14 +74,13 @@
 
 .infoTxt {
   float: right;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 40px;
 }
 
 .infoHead {
   text-align: right;
-  color: white;
-  margin-right: 80px;
+  margin-right: 110px;
 }
 
 .infoH {
@@ -97,7 +96,37 @@
   float: right;
   text-align: justify;
   padding-top: 40px;
-  width: 40%;
+  width: 60%;
+  font-size: 20px;
+}
+
+.infoTxt2 {
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  background-color: rgb(247, 244, 244);
+}
+
+.infoHead2 {
+  text-align: left;
+  margin-left: 110px;
+}
+
+.infoH3 {
+  font-size: 140px;
+  text-align: left;
+}
+
+.infoH4 {
+  font-size: 30px;
+}
+
+.infoP2 {
+  float: left;
+  text-align: justify;
+  padding-top: 40px;
+  width: 60%;
   font-size: 20px;
 }
 
@@ -111,35 +140,34 @@
 
 .line2 {
   margin-left: 30%;
-  color: white;
-  border: 2px solid white;
+  border: 4px solid orange;
+  color: orange;
   width: 40%;
 }
 
 .linksHead {
-  color: white;
-  padding-bottom: 80px;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
 
 .firstBlock {
   font-size: 50px;
-  color: white;
   padding-bottom: 140px;
 }
 
 .infoMail {
   text-decoration: none;
-  color: white;
+  color: black;
   max-width: 60%;
 }
 
 .info:hover, .infoMail:hover {
-  color: yellow;
+  color: orange;
 }
 
 .foot {
   display: flex;
-  background-color: yellow;
+  background-color: rgb(247, 244, 244);
   gap: 25%;
 }
 
@@ -165,10 +193,10 @@
 .contact_form input {
   padding: 7px 20px;
   outline: none;
-  border: 2px solid yellow;
+  border: 2px solid rgb(247, 244, 244);
   border-bottom: 2px solid black;
   font-size: 12px;
-  background-color: yellow;
+  background-color: rgb(247, 244, 244);
   margin-bottom: 10px;
   width: 100%;
   color: black;
@@ -177,23 +205,24 @@
 .contact_form textarea {
   padding: 7px 20px;
   outline: none;
-  border-color: yellow;
+  border-color: rgb(247, 244, 244);
   border-bottom: 2px solid black;
   font-size: 12px;
   color: black;
   width: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
-  background-color: yellow;
+  background-color: rgb(247, 244, 244);
 }
 
 .contact_form button {
+  margin-left: 25%;
   font-size: 19px;
-  width: 100%;
-  border: 2px solid black;
+  width: 50%;
+  border: 2px solid orange;
   margin-top: 10px;
   padding: 12px 20px;
-  background-color: yellow;
+  background-color: orange;
   color: rgba(0, 17, 45);
 
   cursor: pointer;
@@ -201,7 +230,7 @@
 }
 
 .contact_form button:hover {
-  background-color: white;
+  background-color: rgb(247, 244, 244);
   color: black;
   border: 2px solid black;
 }
@@ -261,7 +290,7 @@
   }
 
 .container {
-  height: 500px;
+  height: 330px;
 }
 
 .contact {
@@ -272,10 +301,11 @@
 }
 
 .contactPic {
-  width: 100%;
+  width: 90%;
   height: auto;
   float: none;
-  padding-left: 0;
+  padding-left: 10%;
+  margin-top: -50px;
 }
 
 #img {
@@ -285,16 +315,34 @@
 
 .contactTxt {
   padding-top: 40px;
-  padding-left: 10px;
-  width: 90%;
+  padding-left: 5%;
+  width: 95%;
+  text-align: center;
 }
 
 .text {
-  color: white;
+  font-size: 20px;
+  color: black;
+}
+
+#arrow {
+  margin-top: 20px;
+}
+
+.infoTxt {
+  padding-top: 40px;
+  margin-bottom: -15px;
+}
+
+.infoTxt2 {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .linksHead {
   padding-bottom: 60px;
+  font-size: 20px;
 }
 
 .infoHead {
@@ -302,7 +350,7 @@
 }
 
 .infoH {
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .infoH2 {
@@ -310,17 +358,42 @@
 }
 
 .infoP {
-  width: 80%;
+  margin-top: -15px;
+  width: 100%;
   font-size: 18px;
+}
+
+.infoHead2 {
+  margin-top: 20px;
+  margin-left: 0;
+}
+
+.infoH3 {
+  font-size: 60px;
+}
+
+.infoH4 {
+  font-size: 20px;
+}
+
+.infoP2 {
+  width: 100%;
+  font-size: 18px;
+  margin-top: -15px;
+
 }
 
 #arrow {
   padding-top: 20px;
 }
 
+.linksHead {
+  padding-bottom: 20px;
+}
+
 .firstBlock {
-  font-size: 23px;
-  padding-bottom: 80px;
+  font-size: 20px;
+  padding-bottom: 60px;
 }
 
 .foot {
@@ -333,7 +406,7 @@
 }
 
 .contact_line1 {
-  font-size: 25px;
+  font-size: 30px;
   width: 100%;
 }
 
