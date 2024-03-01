@@ -74,8 +74,7 @@
 
 .infoTxt {
   float: right;
-  padding-top: 100px;
-  padding-bottom: 40px;
+  padding-top: 30px;
 }
 
 .infoHead {
@@ -95,16 +94,15 @@
 .infoP {
   float: right;
   text-align: justify;
-  padding-top: 40px;
-  width: 60%;
+  padding-top: 10px;
+  width: 55%;
   font-size: 20px;
 }
 
 .infoTxt2 {
   float: left;
-  padding-top: 40px;
-  padding-bottom: 50px;
-  margin-bottom: 100px;
+  padding-bottom: 30px;
+  margin-bottom: 70px;
   background-color: rgb(247, 244, 244);
 }
 
@@ -125,8 +123,8 @@
 .infoP2 {
   float: left;
   text-align: justify;
-  padding-top: 40px;
-  width: 60%;
+  padding-top: 10px;
+  width: 55%;
   font-size: 20px;
 }
 
@@ -146,13 +144,18 @@
 }
 
 .linksHead {
+  font-size: 20px;
   padding-top: 5px;
   padding-bottom: 20px;
 }
 
 .firstBlock {
-  font-size: 50px;
-  padding-bottom: 140px;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+#arrow2 {
+  padding-top: 30px;
 }
 
 .infoMail {
