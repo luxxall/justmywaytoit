@@ -106,5 +106,20 @@
   #logo {
     margin-top: 10px;
   }
+  
+  .avatarImg {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10%;
+  }
+  
+  .menu a {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .headerTxt {
+    font-size: 70px;
+  }
 
 }
