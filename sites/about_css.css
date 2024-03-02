@@ -1,86 +1,239 @@
-.bd {
+.bg {
   margin: 0;
-  background-color: white
+  background-color: white;
 }
 
-ul {
+.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
-  }
+  background-color: rgba(0, 17, 45);
+}
   
 .menu {
   float: right;
 }
   
 .menu a {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 22px;
   display: block;
   color: white;
-  text-align: center;
-  padding: 30px 30px;
+  text-align: right;
+  padding: 30px 20px;
   text-decoration: none;
 }
   
 .menu a:hover {
-  font-weight: bold;
+  scale: 110%;
   color: white;
 }
 
-.logo {
-  float: left;
-}
-
 .logo a {
-  display: block;
-  padding: 30px;
+  display: grid;
+  float: left;
+  padding: 20px;
 }
 
 #logo {
   position: absolute;
-  left: 5%;
-  top: 3%;
   max-width: 8%;
   max-height: 8%;
 }
 
-.socials {
-  width: 45%;
-  padding: 10px;
-  display: flex;
-  margin-left: 320px;
+.container {
+  background-color: rgb(247, 244, 244);
+  height: 550px;
+  min-width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.column {
-  flex: 33.33%;
-  margin-left: 50px;
+.contact {
+  display: flex;
+  gap: 150px;
+  padding-top: 120px;
 }
+
+.contactTxt {
+  font-size: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.contactPic {
+  float: left;
+  padding-left: 120px;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.text {
+  text-align: justify;
+}
+
+.infoTxt {
+  float: right;
+  padding-top: 30px;
+}
+
+.infoHead {
+  text-align: right;
+  margin-right: 110px;
+}
+
+.infoH {
+  font-size: 140px;
+  text-align: right;
+}
+
+.infoH2 {
+  font-size: 30px;
+}
+
+.infoP {
+  float: right;
+  text-align: justify;
+  padding-top: 10px;
+  width: 55%;
+  font-size: 20px;
+}
+
+.infoTxt2 {
+  float: left;
+  padding-bottom: 30px;
+  margin-bottom: 70px;
+  background-color: rgb(247, 244, 244);
+}
+
+.infoHead2 {
+  text-align: left;
+  margin-left: 110px;
+}
+
+.infoH3 {
+  font-size: 140px;
+  text-align: left;
+}
+
+.infoH4 {
+  font-size: 30px;
+}
+
+.infoP2 {
+  float: left;
+  text-align: justify;
+  padding-top: 10px;
+  width: 55%;
+  font-size: 20px;
+}
+
 
 @media screen and (max-width: 600px) {
-ul.topnav, ul.topnav li {
-  float: center;
-  padding-bottom: 10px;
+  ul.topnav, ul.topnav li {
+    float: block;
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+  
+  #logo {
+    margin-top: 10px;
+  }
+  
+  .menu a {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+.container {
+  height: 330px;
+}
+
+.contact {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+
+.contactPic {
+  width: 90%;
+  height: auto;
+  float: none;
+  padding-left: 10%;
+  margin-top: -50px;
+}
+
+#img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contactTxt {
+  padding-top: 40px;
+  padding-left: 5%;
+  width: 95%;
+  text-align: center;
+}
+
+.text {
+  font-size: 20px;
+  color: black;
+}
+
+#arrow {
+  margin-top: 20px;
+}
+
+.infoTxt {
+  padding-top: 40px;
+  margin-bottom: -15px;
+}
+
+.infoTxt2 {
   padding-top: 5px;
-}
-  
-#logo {
-  margin-left: -2%;
-  margin-top: 5%
-}
-  
-.menu a {
-  font-size: 15px;
-  padding: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
 }
 
-.socials {
-  margin-left: 90px;
-  margin-right: 20px;
+.infoHead {
+  margin-right: 10px;
 }
 
-.column {
-  margin-left: 2px;
+.infoH {
+  font-size: 60px;
+}
+
+.infoH2 {
+  font-size: 20px;
+}
+
+.infoP {
+  margin-top: -15px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.infoHead2 {
+  margin-top: 20px;
+  margin-left: 0;
+}
+
+.infoH3 {
+  font-size: 60px;
+}
+
+.infoH4 {
+  font-size: 20px;
+}
+
+.infoP2 {
+  width: 100%;
+  font-size: 18px;
+  margin-top: -15px;
+
+}
+
+
+
 }

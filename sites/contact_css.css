@@ -44,99 +44,19 @@
 
 .container {
   background-color: rgb(247, 244, 244);
-  height: 550px;
+  height: 600px;
   min-width: 100%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.contact {
-  display: flex;
-  gap: 150px;
-  padding-top: 120px;
-}
-
-.contactTxt {
-  font-size: 20px;
-  width: 30%;
-  text-align: center;
-}
-
-.contactPic {
-  float: left;
-  padding-left: 120px;
-  width: 50%;
-  margin-top: 50px;
-}
-
-.text {
-  text-align: justify;
-}
-
-.infoTxt {
-  float: right;
-  padding-top: 30px;
-}
-
-.infoHead {
-  text-align: right;
-  margin-right: 110px;
-}
-
-.infoH {
-  font-size: 140px;
-  text-align: right;
-}
-
-.infoH2 {
-  font-size: 30px;
-}
-
-.infoP {
-  float: right;
-  text-align: justify;
-  padding-top: 10px;
-  width: 55%;
-  font-size: 20px;
-}
-
-.infoTxt2 {
-  float: left;
-  padding-bottom: 30px;
-  margin-bottom: 70px;
-  background-color: rgb(247, 244, 244);
-}
-
-.infoHead2 {
-  text-align: left;
-  margin-left: 110px;
-}
-
-.infoH3 {
-  font-size: 140px;
-  text-align: left;
-}
-
-.infoH4 {
-  font-size: 30px;
-}
-
-.infoP2 {
-  float: left;
-  text-align: justify;
-  padding-top: 10px;
-  width: 55%;
-  font-size: 20px;
-}
-
-#arrow {
-  padding-top: 10px;
-}
-
 .links {
   text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .line2 {
+  margin-top: 60px;
   margin-left: 30%;
   border: 4px solid orange;
   color: orange;
@@ -155,7 +75,7 @@
 }
 
 #arrow2 {
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .infoMail {
@@ -168,20 +88,32 @@
   color: orange;
 }
 
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+#img {
+  max-width: 100%;
+  height: auto;
+  padding-right: 80px;
+  padding-top: 100px;
+}
+
 .foot {
   display: flex;
   background-color: rgb(247, 244, 244);
-  gap: 25%;
+  gap: 10%;
 }
 
 .contact2 {
   padding-top: 30px;
-  padding-left: 50px;
+  padding-left: 90px;
   text-align: center;
 }
 
 .contact_line1 {
-  font-size: 50px;
+  font-size: 65px;
   font-weight: bold;
   color: black;
   text-align: center;
@@ -223,7 +155,7 @@
   font-size: 19px;
   width: 50%;
   border: 2px solid orange;
-  margin-top: 10px;
+  margin-top: 30px;
   padding: 12px 20px;
   background-color: orange;
   color: rgba(0, 17, 45);
@@ -240,12 +172,16 @@
 
 .socials {
   text-align: justify;
-  max-width: 30%;
-  display: grid;
+  max-width: 100%;
+  display: block;
   justify-content: center;
   align-content: center;
   border: 30px solid black;
   background-color: black;
+}
+
+.socials a {
+  padding-left: 60px;
 }
 
 .socialsImg {
@@ -262,10 +198,6 @@
   text-decoration: none;
   font-size: 25px;
   padding-left: 20px;
-}
-
-.socialsName:hover {
-  font-size: 25px;
 }
 
 .socialsA:hover {
@@ -292,102 +224,24 @@
     padding: 10px;
   }
 
-.container {
-  height: 330px;
-}
+  .container {
+    height: 250px;
+  }
 
-.contact {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  gap: 0;
-}
+  .img {
+    max-width: 100%;
+  }
 
-.contactPic {
-  width: 90%;
-  height: auto;
-  float: none;
-  padding-left: 10%;
-  margin-top: -50px;
-}
-
-#img {
-  max-width: 100%;
-  height: auto;
-}
-
-.contactTxt {
-  padding-top: 40px;
-  padding-left: 5%;
-  width: 95%;
-  text-align: center;
-}
-
-.text {
-  font-size: 20px;
-  color: black;
-}
-
-#arrow {
-  margin-top: 20px;
-}
-
-.infoTxt {
-  padding-top: 40px;
-  margin-bottom: -15px;
-}
-
-.infoTxt2 {
-  padding-top: 5px;
-  padding-bottom: 20px;
-  margin-bottom: 50px;
-}
+  #img {
+    max-width: 90%;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-left: 10%;
+  }
 
 .linksHead {
   padding-bottom: 60px;
   font-size: 20px;
-}
-
-.infoHead {
-  margin-right: 10px;
-}
-
-.infoH {
-  font-size: 60px;
-}
-
-.infoH2 {
-  font-size: 20px;
-}
-
-.infoP {
-  margin-top: -15px;
-  width: 100%;
-  font-size: 18px;
-}
-
-.infoHead2 {
-  margin-top: 20px;
-  margin-left: 0;
-}
-
-.infoH3 {
-  font-size: 60px;
-}
-
-.infoH4 {
-  font-size: 20px;
-}
-
-.infoP2 {
-  width: 100%;
-  font-size: 18px;
-  margin-top: -15px;
-
-}
-
-#arrow {
-  padding-top: 20px;
 }
 
 .linksHead {
@@ -396,27 +250,40 @@
 
 .firstBlock {
   font-size: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .foot {
   display: block;
 }
 
+#arrow2 {
+  padding-top: 0;
+}
+
 .contact2 {
-  width: 90%;
-  padding-bottom: 40px;
+  width: 95%;
+  padding-left: 10px;
+  padding-bottom: 20px;
 }
 
 .contact_line1 {
-  font-size: 30px;
+  padding-top: 20px;
+  font-size: 45px;
   width: 100%;
 }
 
 .socials {
   max-width: 100%;
+  display: grid;
   margin-left: 0;
   border: 20px solid black;
+  padding-bottom: 10px;
+}
+
+.socials a {
+  padding-top: 15px;
+  padding-left: 0;
 }
 
 }
