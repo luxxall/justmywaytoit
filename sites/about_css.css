@@ -51,21 +51,28 @@
 
 .contact {
   display: flex;
-  gap: 150px;
+  gap: 15%;
   padding-top: 120px;
 }
 
 .contactTxt {
   font-size: 20px;
-  width: 30%;
+  max-width: 30%;
   text-align: center;
+  padding-right: 10px;
 }
 
 .contactPic {
   float: left;
   padding-left: 120px;
-  width: 50%;
-  margin-top: 50px;
+  max-width: 50%;
+  height: auto;
+  padding-top: 50px;
+}
+
+#img {
+  max-width: 100%;
+  height: auto;
 }
 
 .text {
@@ -79,7 +86,7 @@
 
 .infoHead {
   text-align: right;
-  margin-right: 110px;
+  margin-right: 100px;
 }
 
 .infoH {
@@ -101,14 +108,14 @@
 
 .infoTxt2 {
   float: left;
-  padding-bottom: 30px;
-  margin-bottom: 70px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
   background-color: rgb(247, 244, 244);
 }
 
 .infoHead2 {
   text-align: left;
-  margin-left: 110px;
+  margin-left: 100px;
 }
 
 .infoH3 {
@@ -127,6 +134,108 @@
   width: 55%;
   font-size: 20px;
 }
+
+.infoTxt3 {
+  padding-top: 120px;
+}
+
+.infoPic {
+  float: left;
+  max-width: 100%;
+  height: auto;
+  padding-left: 100px;
+  padding-bottom: 60px;
+}
+
+#img2 {
+  max-width: 100%;
+  height: auto;
+}
+
+.infoHead3 {
+  margin-right: 100px;
+  text-align: justify;
+
+}
+
+.infoH5 {
+  font-size: 140px;
+  text-align: right;
+}
+
+.infoH6 {
+  font-size: 30px;
+  text-align: right;
+}
+
+.infoP3 {
+  float: right;
+  text-align: justify;
+  padding-top: 10px;
+  font-size: 20px;
+  width: 40%;
+}
+
+.infoTxt4 {
+  float: left;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(247, 244, 244);
+}
+
+.infoHead4 {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.infoH7 {
+  font-size: 140px;
+  text-align: left;
+}
+
+.infoH8 {
+  font-size: 30px;
+}
+
+.infoP4 {
+  float: left;
+  text-align: justify;
+  padding-top: 10px;
+  width: 55%;
+  font-size: 20px;
+}
+
+.socials {
+  text-align: justify;
+  max-width: 100%;
+  display: block;
+  justify-content: center;
+  align-content: center;
+  border: 30px solid black;
+  background-color: black;
+}
+
+.socials a {
+  padding-left: 60px;
+}
+
+.socialsImg {
+  max-width: 60px;
+  max-height: auto;
+}
+
+
+.socialsName {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.socialsA {
+  text-decoration: none;
+}
+
 
 
 @media screen and (max-width: 600px) {
@@ -157,11 +266,11 @@
 }
 
 .contactPic {
-  width: 90%;
+  max-width: 90%;
   height: auto;
   float: none;
   padding-left: 10%;
-  margin-top: -50px;
+  margin-top: -90px;
 }
 
 #img {
@@ -172,7 +281,7 @@
 .contactTxt {
   padding-top: 40px;
   padding-left: 5%;
-  width: 95%;
+  max-width: 95%;
   text-align: center;
 }
 
@@ -187,13 +296,32 @@
 
 .infoTxt {
   padding-top: 40px;
-  margin-bottom: -15px;
+  margin-bottom: 15px;
 }
 
 .infoTxt2 {
-  padding-top: 5px;
+  padding-top: 0;
   padding-bottom: 20px;
   margin-bottom: 50px;
+}
+
+.infoHead2 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.infoH3 {
+  font-size: 60px;
+}
+
+.infoH4 {
+  font-size: 20px;
+}
+
+.infoP2 {
+  width: 97%;
+  font-size: 18px;
+  margin-top: 15px;
 }
 
 .infoHead {
@@ -209,31 +337,84 @@
 }
 
 .infoP {
-  margin-top: -15px;
-  width: 100%;
+  margin-top: 15px;
+  width: 97%;
   font-size: 18px;
 }
 
-.infoHead2 {
-  margin-top: 20px;
-  margin-left: 0;
+.infoTxt3 {  
+  margin-bottom: 50px;
 }
 
-.infoH3 {
+.infoPic {
+  max-width: 100%;
+  height: auto;
+  padding-right: 25%;
+  margin-top: -30px;
+}
+
+#img2 {
+  max-width: 100%;
+  height: auto;
+}
+
+.infoHead3 {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.infoH5 {
   font-size: 60px;
 }
 
-.infoH4 {
+.infoH6 {
   font-size: 20px;
 }
 
-.infoP2 {
-  width: 100%;
+.infoP3 {
+  width: 97%;
   font-size: 18px;
-  margin-top: -15px;
-
+  margin-top: 15px;
+  padding-bottom: 20px;
 }
 
+.infoTxt4 {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.infoHead4 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.infoH7 {
+  font-size: 50px;
+}
+
+.infoH8 {
+  font-size: 20px;
+}
+
+.infoP4 {
+  width: 97%;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.socials {
+  max-width: 100%;
+  display: grid;
+  margin-left: 0;
+  border: 20px solid black;
+  padding-bottom: 10px;
+}
+
+.socials a {
+  padding-top: 15px;
+  padding-left: 0;
+}
 
 
 }

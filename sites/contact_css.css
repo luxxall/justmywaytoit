@@ -189,19 +189,12 @@
   max-height: auto;
 }
 
-.socialsImg:hover {
-  scale: 100%;
-}
 
 .socialsName {
   color: white;
   text-decoration: none;
   font-size: 25px;
   padding-left: 20px;
-}
-
-.socialsA:hover {
-  scale: 105%;
 }
 
 .socialsA {
