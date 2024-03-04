@@ -44,7 +44,7 @@
 
 .container {
   background-color: rgb(247, 244, 244);
-  height: 600px;
+  height: 565px;
   min-width: 100%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -75,7 +75,7 @@
 }
 
 #arrow2 {
-  padding-top: 60px;
+  padding-top: 20px;
 }
 
 .infoMail {
@@ -88,27 +88,15 @@
   color: orange;
 }
 
-.img {
-  max-width: 100%;
-  height: auto;
-}
-
-#img {
-  max-width: 100%;
-  height: auto;
-  padding-right: 80px;
-  padding-top: 100px;
-}
-
 .foot {
-  display: flex;
+  display: grid;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(247, 244, 244);
-  gap: 10%;
 }
 
 .contact2 {
   padding-top: 30px;
-  padding-left: 90px;
   text-align: center;
 }
 
@@ -178,6 +166,7 @@
   align-content: center;
   border: 30px solid black;
   background-color: black;
+  text-align: center;
 }
 
 .socials a {
@@ -194,7 +183,6 @@
   color: white;
   text-decoration: none;
   font-size: 25px;
-  padding-left: 20px;
 }
 
 .socialsA {
@@ -272,6 +260,7 @@
   margin-left: 0;
   border: 20px solid black;
   padding-bottom: 10px;
+  text-align: justify;
 }
 
 .socials a {
