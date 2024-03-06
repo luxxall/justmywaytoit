@@ -76,6 +76,8 @@
     min-width: 100%;
     height: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 .pagination {
@@ -101,38 +103,36 @@
   color: black;
 }
 
-
-
 .footer {
-    background-color: rgb(247, 244, 244);
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+  background-color: rgb(247, 244, 244);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
   
-  .footerText {
-    text-align: center;
-    position: absolute;
-    font-size: 20px;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    width: 50%;
-  }
+.footerText {
+  text-align: center;
+  position: absolute;
+  font-size: 20px;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  width: 50%;
+}
   
-  .socials {
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 20px solid black;
-    border-radius: 13px;
-    background-color: black;
-  }
+.socials {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 20px solid black;
+  border-radius: 13px;
+  background-color: black;
+}
   
   .socialsA {
     padding-left: 15px;
@@ -167,6 +167,49 @@
     color: black;
   }
 
+.journal {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top {
+  padding-top: 2%;
+}
+
+.topLeft {
+  float: left;
+  font-size: 20px;
+  padding-left: 10%;
+}
+
+.topRight {
+  float: right;
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+.title {
+  font-size: 50px;
+  text-align: left;
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+.contentType {
+  font-size: 15px;
+  margin-top: -20px;
+  color: gray;
+}
+
+.content {
+  width: 80%;
+  text-align: justify;
+  padding-left: 20%;
+  font-size: 17px;
+}
+  
 
 @media screen and (max-width: 600px) {
 ul.topnav, ul.topnav li {
@@ -192,12 +235,10 @@ ul.topnav, ul.topnav li {
     font-size: 20px;
 }
 
-
-
-
 .pagination a {
   font-size: 20px;
   margin-left: 0;
+  padding: 8px 11px;
 }
 
 .footerText {
@@ -217,5 +258,27 @@ ul.topnav, ul.topnav li {
   .socialsImg {
     max-width: 49px;
     max-height: auto;
+  }
+
+  .topLeft {
+    padding-left: 5%;
+    font-size: 16px;
+  }
+
+  .topRight {
+    padding-right: 5%;
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 36px;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .content {
+    font-size: 15px;
+    width: 95%;
+    padding-left: 5%;
   }
 }
