@@ -58,8 +58,8 @@
 .line2 {
   margin-top: 60px;
   margin-left: 30%;
-  border: 4px solid orange;
-  color: orange;
+  border: 4px solid gray;
+  color: gray;
   width: 40%;
 }
 
@@ -261,6 +261,11 @@
   padding-top: 20px;
   font-size: 60px;
   width: 100%;
+}
+
+.contact_form {
+  width: 95%;
+  padding-left: 5%;
 }
 
 .line {
