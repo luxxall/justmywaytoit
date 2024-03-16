@@ -5,10 +5,14 @@
 
 .topnav {
   list-style-type: none;
+  width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgba(0, 17, 45);
+  top: 0;
+  z-index: 1;
+  position: fixed;
 }
   
 .menu {
@@ -38,12 +42,13 @@
 
 #logo {
   position: absolute;
-  max-width: 8%;
-  max-height: 8%;
+  max-width: 50%;
+  max-height: 50%;
 }
 
 .container {
   background-color: rgb(247, 244, 244);
+  margin-top: 5%;
   height: 595px;
   min-width: 100%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -56,33 +61,86 @@
 }
 
 .contactTxt {
+  position: absolute;
+  left: 65%;
+  top: 60%;
+  transform: translateY(-50%);
   font-size: 20px;
   max-width: 30%;
-  text-align: center;
-  padding-right: 10px;
+  height: auto;
+  animation: slideIn 2s forwards;
+  text-align: justify;
+}
+@keyframes slideIn {
+  to {
+    left: 60%; /* Docelowe położenie */
+  }
+}
+
+#arrow {
+  margin-left: 40%;
+  margin-top: 5%;
 }
 
 .contactPic {
-  float: left;
-  padding-left: 120px;
-  max-width: 50%;
+  position: absolute;
+  max-width: 40%;
   height: auto;
-  padding-top: 50px;
+  top: 25%;
+  left: 5%;
+  animation: slideIn2 2s forwards;
 }
+@keyframes slideIn2 {
+  to {
+    left: 10%; /* Docelowe położenie */
+  }
+}
+
 
 #img {
   max-width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .text {
   text-align: justify;
 }
 
+#fading {
+  opacity: 0;
+}
+
+.main {
+  margin-top: 40%;
+  display: grid;
+  max-width: 100%;
+  height: auto;
+}
+
+/* this found on dev.to */
+.appear2 {
+  transition: all 1s;
+  opacity: 0;
+  transform: translateY(20px);
+
+&.inview2 {
+    opacity: 1;
+    transform: none;
+    @for $i from 1 through 5 {
+      &:nth-child(#{$i}) {
+        transition-delay: $i * 0.1s;
+    }
+  }
+}
+}
+
 .infoTxt {
-  float: right;
+  right: 100%;
   padding-top: 30px;
   background-color: white;
+  max-width: 100%;
+  height: auto;
 }
 
 .infoHead {
@@ -229,7 +287,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-top: 18%;
+  margin-top: 5%;
 }
 
 .footerText {
@@ -293,11 +351,18 @@
   ul.topnav, ul.topnav li {
     float: block;
     padding-bottom: 10px;
-    padding-top: 5px;
+    padding-top: 0;
   }
   
   #logo {
-    margin-top: 10px;
+    margin-top: 5px;
+    max-width: 23%;
+    max-height: 23%;
+  }
+  
+  .container {
+    margin-top: 15%;
+    height: 330px;
   }
   
   .menu a {
@@ -305,8 +370,8 @@
     padding: 10px;
   }
 
-.container {
-  height: 330px;
+.main {
+  margin-top: 190%;
 }
 
 .contact {
@@ -317,11 +382,10 @@
 }
 
 .contactPic {
-  max-width: 90%;
+  max-width: 80%;
   height: auto;
+  top: 20%;
   float: none;
-  padding-left: 10%;
-  margin-top: -90px;
 }
 
 #img {
@@ -330,10 +394,17 @@
 }
 
 .contactTxt {
-  padding-top: 40px;
-  padding-left: 5%;
-  max-width: 95%;
+  margin-top: 75%;
+  left: 10%;
+  max-width: 85%;
   text-align: center;
+}
+
+@keyframes slideIn {
+  to {
+    left: 7%;
+    right: 0;
+  }
 }
 
 .text {
@@ -343,6 +414,7 @@
 
 #arrow {
   margin-top: 20px;
+  margin-left: 5%;
 }
 
 .infoTxt {
@@ -467,7 +539,7 @@
 }
 
 .footer {
-  margin-top: 370px;
+  margin-top: 5%;
 }
 
 .footerText {

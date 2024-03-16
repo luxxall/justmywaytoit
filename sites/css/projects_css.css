@@ -5,10 +5,14 @@
 
 .topnav {
   list-style-type: none;
+  width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgba(0, 17, 45);
+  top: 0;
+  z-index: 1;
+  position: fixed;
 }
   
 .menu {
@@ -38,12 +42,13 @@
 
 #logo {
   position: absolute;
-  max-width: 8%;
-  max-height: 8%;
+  max-width: 50%;
+  max-height: 50%;
 }
 
 .container {
   min-width: 100%;
+  margin-top: 6%;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -52,30 +57,59 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#fading {
+  opacity: 0;
+}
+
 .header {
   margin-top: 55px;
 }
 
 .headerTxt {
   font-size: 120px;
+  position: absolute;
+  top: 15%;
+  left: 27%;
+  animation: slideIn 2s forwards;
+}
+@keyframes slideIn {
+  to {
+    top: 20%; /* Docelowe położenie */
+  }
 }
 
 .headerTxt2 {
+  position: absolute;
   text-align: center;
   font-size: 25px;
+  top: 50%;
+  left: 39%;
+  animation: slideIn2 2s forwards;
+}
+@keyframes slideIn2 {
+  to {
+    top: 45%; /* Docelowe położenie */
+  }
 }
 
 .arrow {
-  position: relative;
-  margin-left: 45%;
-  margin-top: 10%;
+  position: absolute;
+  left: 49%;
+  top: 55%;
+  animation: slideIn3 2s forwards;
+}
+@keyframes slideIn3 {
+  to {
+    top: 57%; /* Docelowe położenie */
+  }
 }
 
 .line {
   color: black;
   border: 5px solid black;
-  width: 70%;
-  margin-left: 15%;
+  width: 30%;
+  position: absolute;
+  left: 35%;
 }
 
 .nav-pills {
@@ -105,11 +139,47 @@
   margin-top: 80px;
   text-align: center;
   font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .list2 {
   list-style-type: none;
   padding-bottom: 10px;
+  margin-left: -3%;
+}
+
+.listTxt {
+  font-size: 15px;
+  width: 40%;
+  text-align: justify;
+  margin-left: 30%;
+}
+
+.linkMore {
+  text-decoration: none;
+  color: black;
+}
+
+.linkMore:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.listFigure {
+  text-align: center;
+}
+
+.listButton {
+  font-size: 17px;
+  color: black;
+  background-color: orange;
+  border: 3px solid orange;
+}
+
+.listButton:hover {
+  color: black;
+  background-color: rgb(247, 244, 244);
+  border: 3px solid white;
 }
 
 
@@ -120,7 +190,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .footerText {
@@ -184,11 +254,18 @@
   ul.topnav, ul.topnav li {
     float: block;
     padding-bottom: 10px;
-    padding-top: 5px;
+    padding-top: 0;
   }
   
   #logo {
-    margin-top: 10px;
+    margin-top: 5px;
+    max-width: 23%;
+    max-height: 23%;
+  }
+  
+  .container {
+    margin-top: 15%;
+    height: 350px;
   }
   
   .menu a {
@@ -196,27 +273,45 @@
     padding: 10px;
   }
 
-  .container {
-    height: 350px;
-  }
-
 .header {
-  padding-top: 22%;
+  padding-top: 15%;
 }
 
   .headerTxt {
-    font-size: 65px;
+    font-size: 62px;
     padding-top: 0;
-    margin-top: -20px;
+    left: 4%;
+    top: 20%;
+  }
+  @keyframes slideIn {
+    to {
+      top: 23%;
+    }
+  }
+
+  .line {
+    top: 35%
   }
 
   .headerTxt2 {
     font-size: 20px;
+    left: 12%;
+    top: 43%
+  }
+  @keyframes slideIn2 {
+    to {
+      top: 40%;
+    }
   }
 
   .arrow {
-    margin-left: 43%;
-    margin-top: 20%;
+    left: 43%;
+    top: 49%;
+  }
+  @keyframes slideIn3 {
+    to {
+      top: 50%;
+    }
   }
 
   .nav-pills {
@@ -224,7 +319,7 @@
     width: 95%;
     height: auto;
     border-radius: 6px;
-    margin-top: 20%;
+    margin-top: 10%;
   }
 
   .nav-link {
@@ -235,6 +330,11 @@
     margin-top: 50px;
     font-size: 25px;
     margin-left: -5%;
+  }
+
+  .listTxt {
+    width: 80%;
+    margin-left: 10%;
   }
 
   .name {
