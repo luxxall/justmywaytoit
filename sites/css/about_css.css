@@ -120,7 +120,7 @@
 
 /* this found on dev.to */
 .appear2 {
-  transition: all 1s;
+  transition: all 0.9s;
   opacity: 0;
   transform: translateY(20px);
 
@@ -415,6 +415,11 @@
 #arrow {
   margin-top: 20px;
   margin-left: 5%;
+}
+
+/* this found on dev.to */
+.appear2 {
+  transition: all 0.4s;
 }
 
 .infoTxt {
