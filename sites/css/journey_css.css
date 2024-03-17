@@ -306,7 +306,7 @@ ul.topnav, ul.topnav li {
 
 .headerText2 {
   font-size: 20px;
-  left: 8%;
+  left: 4%;
   top: 43%
 }
 @keyframes slideIn2 {
@@ -343,7 +343,7 @@ ul.topnav, ul.topnav li {
 .pagination a {
   font-size: 20px;
   margin-left: 0;
-  padding: 8px 11px;
+  padding: 8px 9px;
 }
 
 .footerText {

@@ -52,6 +52,27 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#fading {
+  opacity: 0;
+}
+
+/* this found on dev.to */
+.appear2 {
+  transition: all 1s;
+  opacity: 0;
+  transform: translateY(20px);
+
+&.inview2 {
+    opacity: 1;
+    transform: none;
+    @for $i from 1 through 5 {
+      &:nth-child(#{$i}) {
+        transition-delay: $i * 0.1s;
+    }
+  }
+}
+}
+
 .headerText {
     font-size: 120px;
     text-align: center;
@@ -260,10 +281,15 @@ ul.topnav, ul.topnav li {
   padding-left: 5%;
 }
 
+/* this found on dev.to */
+.appear2 {
+  transition: all 0.4s;
+}
+
 .pagination a {
   font-size: 20px;
   margin-left: 0;
-  padding: 8px 11px;
+  padding: 8px 9px;
 }
 
 .footerText {

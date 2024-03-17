@@ -366,9 +366,14 @@ ul.topnav, ul.topnav li {
   left: 7%;
 }
 
+/* this found on dev.to */
+.appear2 {
+  transition: all 0.4s;
+}
+
 .shortInfoMore {
   padding-bottom: 50px;
-  margin-top: 80%;
+  margin-top: 100%;
 }
 
 .images {
